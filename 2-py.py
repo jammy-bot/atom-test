@@ -17,6 +17,9 @@ def runnit(test_length):
     while len(length_list) < test_length:
         length_list.append(i)
         i += i*2
-    print(length_list)
+        #print the list as it iterates
+        print(length_list)
+    # print the final list
+    # print(length_list)
 
 runnit(6)
